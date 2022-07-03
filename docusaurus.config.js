@@ -80,7 +80,7 @@ const config = {
             position: 'left'
           },
           {
-            to: '/doc', 
+            type: 'doc', 
             docId: 'credits', 
             label: 'Credits/Legal',
             position: 'left'
@@ -114,7 +114,7 @@ const config = {
               },
               {
                 label: 'News',
-                to: '/news',
+                to: '/blog',
               },
             ],
           },
