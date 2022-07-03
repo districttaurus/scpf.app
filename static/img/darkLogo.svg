@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-1200 -1200 2400 2400"
+   id="svg31"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.26833333"
+     inkscape:cx="1198.1367"
+     inkscape:cy="1194.41"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31" />
+  <defs
+     id="defs13">
+    <mask
+       id="c">
+      <path
+         d="m-1200-1200h2400v2400h-2400z"
+         fill="#fff"
+         id="path2" />
+      <circle
+         r="925"
+         id="circle4" />
+      <path
+         d="m-306-861 36-185h540l36 185"
+         id="path6" />
+      <path
+         transform="rotate(120)"
+         d="m-306-861 36-185h540l36 185"
+         id="path8" />
+      <path
+         transform="rotate(240)"
+         d="m-306-861 36-185h540l36 185"
+         id="path10" />
+    </mask>
+  </defs>
+  <g
+     mask="url(#c)"
+     id="g22"
+     style="fill:#ffffff">
+    <circle
+       r="984"
+       id="circle15"
+       style="fill:#ffffff" />
+    <path
+       id="a"
+       d="m-359-913 36-185h646l36 185"
+       style="fill:#ffffff" />
+    <use
+       transform="rotate(120)"
+       xlink:href="#a"
+       id="use18"
+       style="fill:#ffffff" />
+    <use
+       transform="rotate(240)"
+       xlink:href="#a"
+       id="use20"
+       style="fill:#ffffff" />
+  </g>
+  <circle
+     fill="none"
+     stroke="#000000"
+     stroke-width="119"
+     id="circle24"
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+     cx="0"
+     cy="0"
+     r="590.5" />
+  <path
+     id="b"
+     d="m-40-752v455h-93.5l133.5 259 133.5-259h-93.5v-455"
+     style="fill:#ffffff" />
+  <use
+     transform="rotate(120)"
+     xlink:href="#b"
+     id="use27"
+     style="fill:#ffffff" />
+  <use
+     transform="rotate(240)"
+     xlink:href="#b"
+     id="use29"
+     style="fill:#ffffff" />
+</svg>

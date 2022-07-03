@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'District Taurus',
+  tagline: 'Special Containment Procedures Foundation',
+  url: 'https://scpf.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'districttaurus', // Usually your GitHub org/user name.
+  projectName: 'scpf.app', // Usually your repo name.
+
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +39,15 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/districttaurus/scpf.app/tree/main/',
+            routeBasePath: '/'
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/districttaurus/scpf.app/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,22 +60,43 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'District Taurus',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'District Taurus Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/darkLogo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'legislation/legislation',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Legislation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: '/blog', 
+            label: 'News', 
+            position: 'left'
+          },
+          {
+            to: '/doc', 
+            docId: 'credits', 
+            label: 'Credits/Legal',
+            position: 'left'
+          },
+          {
+            href: 'https://wiki.scpf.app',
+            label: 'Wiki',
+            position: 'left',
+          },
+          {
+            href: 'https://discord.gg/vZjvfvZfKK',
+            label: 'Discord',
+            position: 'right',
+          },
+          {
+            href: 'https://www.roblox.com/groups/15094000/SCPF-Special-Containment-Procedures-Foundation#!/about',
+            label: 'Group',
             position: 'right',
           },
         ],
@@ -81,11 +105,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Legislation',
+                to: '/legislation',
+              },
+              {
+                label: 'News',
+                to: '/news',
               },
             ],
           },
@@ -93,16 +121,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/vZjvfvZfKK',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Roblox',
+                href: 'https://www.roblox.com/groups/15094000/SCPF-Special-Containment-Procedures-Foundation#!/about',
               },
             ],
           },
@@ -110,17 +134,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Support',
+                href: 'https://support.scpf.app',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/districttaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ulferno Limited (registered company in England and Wales, No. 14179021)`,
       },
       prism: {
         theme: lightCodeTheme,
