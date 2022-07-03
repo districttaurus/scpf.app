@@ -59,6 +59,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'district taurus, scp, scpf, special containment procedures, special containment procedures foundation, secure contain protect, roblox group, roblox game, taurus, stratus, roblox scpf, roblox scp'}],
       navbar: {
         title: 'District Taurus',
         logo: {
