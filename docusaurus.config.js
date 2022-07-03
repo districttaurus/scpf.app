@@ -91,6 +91,11 @@ const config = {
             position: 'left',
           },
           {
+            href: 'https://stratus.scpf.app',
+            label: 'Stratus',
+            position: 'left',
+          },
+          {
             href: 'https://discord.gg/vZjvfvZfKK',
             label: 'Discord',
             position: 'right',
