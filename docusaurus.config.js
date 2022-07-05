@@ -29,6 +29,8 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
   presets: [
     [
       'classic',
@@ -64,8 +66,7 @@ const config = {
         title: 'District Taurus',
         logo: {
           alt: 'District Taurus Logo',
-          src: 'img/logo.svg',
-          srcDark: 'img/darkLogo.svg',
+          src: 'img/logo.svg'
         },
         items: [
           {

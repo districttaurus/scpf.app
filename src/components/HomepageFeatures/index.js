@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Foundation Policy',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/FPS.svg').default,
     description: (
       <>
         View all enacted legislation of the foundation.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Department Policy',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/FPS.svg').default,
     description: (
       <>
         View all enacted policy within a department.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Wiki',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
         Learn about the foundation's history and
