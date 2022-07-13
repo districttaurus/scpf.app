@@ -15,6 +15,11 @@
 const sidebars = {
   legislation: [
     {
+      type: 'doc',
+      label: 'Game Terms',
+      id: 'terms/terms'
+    },
+    {
       type: 'category',
       label: 'Legislation',
       collapsible: false,

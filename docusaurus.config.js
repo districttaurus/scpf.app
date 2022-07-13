@@ -71,6 +71,12 @@ const config = {
         items: [
           {
             type: 'doc',
+            docId: 'terms/terms',
+            position: 'left',
+            label: 'Game Terms',
+          },
+          {
+            type: 'doc',
             docId: 'legislation/legislation',
             position: 'left',
             label: 'Legislation',
@@ -114,6 +120,10 @@ const config = {
           {
             title: 'Documentation',
             items: [
+              {
+                label: 'Game Terms',
+                to: '/terms',
+              },
               {
                 label: 'Legislation',
                 to: '/legislation',
